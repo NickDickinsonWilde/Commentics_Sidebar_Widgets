@@ -2,6 +2,7 @@ Name: Sidebar Widgets
 =============
 
 Version:
+--------
 2.0
 
 Authors:
@@ -43,12 +44,19 @@ Install:
 2. include the following code where you want to include widgets (calling the right widget of course):
     ```php
     <?php
+	
         if (!isset($cmtx_path)) {
+		
             $cmtx_path = 'comments/'; //to your true path ofc.
+			
             define('IN_COMMENTICS', 'true');
+			
         }
+		
         include_once "comments/display_functions.php";
+		
         echo get_recent(); //or whichever widget you want (see description or source)
+		
     ?>
     ```
 
