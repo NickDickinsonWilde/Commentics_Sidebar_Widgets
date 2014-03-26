@@ -65,3 +65,6 @@ Uninstall:
 1. Remove the code from your site's page(s).
 
 2. Delete sidebar_widgests.php
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/PacificMorrowind/commentics_sidebar_widgets/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
